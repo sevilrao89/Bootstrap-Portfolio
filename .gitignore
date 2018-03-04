@@ -1,5 +1,12 @@
+
 # Compiled class file
 *.class
+
+template.html
+
+.gitignore
+
+practice/
 
 # Log file
 *.log

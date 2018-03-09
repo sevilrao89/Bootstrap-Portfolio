@@ -1,0 +1,159 @@
+		.b-table {
+                display: table;
+                table-layout: fixed;
+            }
+
+        .b-cell {
+                display: inline-block;
+                
+                float: none;
+        }
+
+
+        header ul{
+        	font-family: "arial";
+        	font-size: 18px;
+        	color: #ccc;
+        	position: absolute;
+        	left: 8em;
+
+
+        }
+
+        header h1{
+        	background: #4aaaa5;
+        	font-family:'Georgia', Times, Times New Roman, serif;
+        	padding: .3em;
+        	font-weight: bold;
+        	color: #fff;
+
+
+        }
+
+
+
+
+
+        main{
+		background: url("assets/imgs/concrete.png");
+		padding: 1em;
+		border-top: 2px solid #ccc;
+		
+
+        }
+
+
+
+        main section h1{
+		margin: 0 1em;
+		padding:.7em 0;
+		color: #4aaaa5;
+		font-size: 28px;
+
+		}
+
+		section h1{
+			 font-family:'Georgia', Times, Times New Roman, serif;
+			 color: #4aaaa5;
+			 font-weight: bold;
+			 font-size: 24px;
+
+		}
+
+		section ul{
+			list-style: none;
+
+		}
+
+		section ul li{
+		display: inline-block;
+		width: 250px;
+		background: #ebebeb;
+		padding: 109px 0 8px;
+    	margin: 1.5em;
+	
+
+	}
+
+	section div ul{
+		margin: 1em;
+
+	}
+
+	section ul li span{
+	background: #4aaaa5;
+	display: block;
+	padding: .5em 0 .8em;
+	font-size: 150%;
+	font-family: 'Georgia',Times New Roman, serif;
+	}
+
+
+
+
+
+	li.games{
+		text-align: center;
+		margin: 1.5em;
+		background: url("assets/imgs/games.jpg");
+		color: #fff;
+	
+		
+		
+
+
+	}
+
+	li.projects{
+		text-align: center;
+		background: url("assets/imgs/projects.jpg");
+		margin: 1.5em;
+		color: #fff;
+		
+		
+		
+	}
+
+	li.hobbies{
+		text-align: center;
+		margin: 1.5em;
+		background: url("assets/imgs/hobbies.jpg");
+		color: #fff;
+		
+	}
+
+	li.trivia{
+		text-align: center;
+		background: url("assets/imgs/trivia.png");
+		color: #fff;
+
+		
+
+	}
+
+	li.goals{
+		text-align: center;
+		margin:1.5em;
+		background: url("assets/imgs/goals.jpg");
+		color: #fff;
+		
+	}
+
+	aside{
+		margin: 0 1em;
+	}
+
+	
+
+	aside h1{
+		font-family: 'Georgia',Times New Roman, serif;
+		color: #4aaaa5;
+		font-weight: bold;
+    	font-size: 22px;
+
+	}
+
+	footer{
+		background: #666;
+		border-top: 2px solid #4aaaa5;
+	}
